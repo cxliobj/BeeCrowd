@@ -2,7 +2,6 @@
 
 void calculoTempo (int horaInicial, int minInicial, int horaFinal, int minFinal) 
 {
-
     int horas = horaFinal - horaInicial;
     int minutos = minFinal - minInicial;
 
@@ -20,9 +19,7 @@ void calculoTempo (int horaInicial, int minInicial, int horaFinal, int minFinal)
         horas = 24;
         minutos = 0;
     }
-
     printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", horas, minutos);
-
 }
 
 

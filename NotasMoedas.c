@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int notas (int dinheiro, int nota)
+int qtdNotasMoedas (int dinheiro, int nota)
 {
     return (dinheiro - (dinheiro % nota)) / nota;
 }
